@@ -1,50 +1,85 @@
-Body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #1a1a1a;
-    color: #020202;
-}
-
-header {
-    text-align: center;
-    padding: 2em;
-    background-color: #db2e2e;
-}
-
-section {
-    padding: 2em;
-
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-video {
-    width: 100%;
-}
-
-footer {
-    text-align: center;
-    padding: 1em;
-    background-color: #333333;
-}
-
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Arial', sans-serif; /* Add more font fallbacks if needed */
+    background-color: #ffcc00;
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiezr36h2l5xzQbh-X6GdFgmcQMxxq8D24_g&usqp=CAU');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    font-family: 'Arial', sans-serif;
 }
 
+header, main, footer {
+    text-align: center;
+    margin: 10px;
+}
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-section {
+    width: 80%;
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(249, 6, 6, 0.768);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(23, 2, 2, 0.972);
+}
+
+#comments {
+    margin-top: 20px;
+    /* Add styling for comments */
+    font-family: 'Arial', sans-serif; /* Add font family for comments */
+    background-color: #f0f0f0; /* Example background color */
+    padding: 10px; /* Example padding */
+}
+
+textarea {
+    width: 100%;
+    margin: 10px 0;
+    /* Add additional styling as needed */
+    border: 1px solid #ccc; /* Example border */
+    padding: 8px; /* Example padding */
+}
+
+button {
+    cursor: pointer;
+    /* Add button styling as needed */
+    background-color: #4CAF50; /* Example background color */
+    color: white; /* Example text color */
+    padding: 10px 15px; /* Example padding */
+    border: none; /* Example border */
+}
+
+footer {
+    background-color: #f80e0e;
+    color: #241616;
+    padding: 10px;
+    text-align: center;
+}
+
+.bordered-image {
+    border: 2px solid #ffcc00; /* Adjust border width and color */
+}
+
+#dragonBallZSection {
+    text-align: center; 
+}
+
+span {
+    margin: 10px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1); /* Adjust scaling value */
+}

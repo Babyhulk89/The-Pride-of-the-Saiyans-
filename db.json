@@ -1,0 +1,31 @@
+{
+    "dragonBallZ": [
+        {"id": 1, "name": "Goku", "powerLevel": 9000},
+        {"id": 2, "name": "Vegeta", "powerLevel": 8000},
+        {"id": 3, "name": "Piccolo", "powerLevel": 5000},
+        {"id": 4, "name": "Gohan", "powerLevel": 3000},
+        {"id": 5, "name": "Frieza", "powerLevel": 1200000},
+        {"id": 6, "name": "Cell", "powerLevel": 1500000},
+        {"id": 7, "name": "Majin Buu", "powerLevel": 1600000},
+        {"id": 8, "name": "Trunks", "powerLevel": 4000},
+        {"id": 9, "name": "Goten", "powerLevel": 3500},
+        {"id": 10, "name": "Krillin", "powerLevel": 1500}
+    ],
+    "dragonBallSuper": [
+        {"id": 11, "name": "Beerus", "powerLevel": "God of Destruction"},
+        {"id": 12, "name": "Whis", "powerLevel": "Angel"},
+        {"id": 13, "name": "Goku (Super Saiyan Blue)", "powerLevel": 900000},
+        {"id": 14, "name": "Vegeta (Super Saiyan Blue)", "powerLevel": 850000},
+        {"id": 15, "name": "Frieza (Golden Frieza)", "powerLevel": 2500000},
+        {"id": 16, "name": "Zamasu", "powerLevel": "Immortal"},
+        {"id": 17, "name": "Hit", "powerLevel": "Assassin"},
+        {"id": 18, "name": "Jiren", "powerLevel": "Pride Trooper"},
+        {"id": 19, "name": "Cabba", "powerLevel": "Super Saiyan"},
+        {"id": 20, "name": "Kale", "powerLevel": "Legendary Super Saiyan"}
+    ],
+    "comments": [
+        {"id": 1, "name": "Fan1", "body": "Excited for Dragon Ball Super!"},
+        {"id": 2, "name": "Fan2", "body": "Goku is my favorite character."},
+        {"id": 3, "name": "Fan3", "body": "Can't wait to see more battles!"}
+    ]
+}
