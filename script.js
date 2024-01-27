@@ -1,11 +1,12 @@
 // Fetch Dragon Ball Z data from the JSON server
+// The variables store the URLs and comments data on the JSON server
 const API_URL = 'http://localhost:3000/dragonBallZ'; // Replace with your JSON Server URL
 const COMMENTS_API_URL = 'http://localhost:3000/comments';
 
 // Global comments array
 let comments = [];
 
-// Fetch data from the JSON server
+// Fetch data from the JSON server using the API
 async function fetchData(url, displayFunction) {
   try {
     const response = await fetch(url);
@@ -20,7 +21,7 @@ async function fetchData(url, displayFunction) {
 function displayDragonBallZContent(data) {
   const dragonBallZSection = document.getElementById('dragonBallZSection');
 
-  // Display data in this section, manipulate the data if needed
+  // Display data in this section, manipulate the data 
   data.characters.forEach(character => {
     // Create a span element for each character name
     const characterElement = document.createElement('span');
